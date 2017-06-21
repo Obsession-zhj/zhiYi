@@ -1,0 +1,279 @@
+#tf-menu {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 10000;
+  background: transparent;
+  border: 0;
+  color: #fff !important;
+  padding: 2% 0;
+  transition: all 500ms;
+}
+#tf-menu.nav_fixed {
+  background: #222222;
+  padding: 1% 0px;
+}
+a.navbar-brand .logo {
+  font-family: 'Playball', cursive;
+}
+#bs-example-navbar-collapse-1 a {
+  color: #C5C5C5;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+#bs-example-navbar-collapse-1 a:hover {
+  color: #2F937B;
+}
+@media all and (max-width: 768px) {
+  #bs-example-navbar-collapse-1 {
+    background: #333;
+  }
+}
+#div_fixed {
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  bottom: 0px;
+  z-index: -999;
+}
+#div_fixed img {
+  width: 100%;
+  min-height: 400px;
+  max-height: 100%;
+}
+#div_fixed > div {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.73) 17%, rgba(0, 0, 0, 0.66) 35%, rgba(0, 0, 0, 0.55) 62%, rgba(0, 0, 0, 0.4) 100%);
+}
+#tf-home {
+  padding: 12% 0 15% 0;
+  text-align: center;
+  color: #cfcfcf;
+  color: #999;
+  font-family: 'Raleway', sans-serif;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  min-height: 350px;
+}
+#tf-home a.my-btn {
+  background: #2F937B;
+  border-color: transparent;
+  border-radius: 0px;
+  border-width: 2px;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  transition: color 500ms, background 500ms;
+  -moz-transition: color 500ms, background 500ms;
+  -webkit-transition: color 500ms, background 500ms;
+  -o-transition: color 500ms, background 500ms;
+}
+#tf-home a.my-btn:hover {
+  background: #FFFFFF;
+  color: #2F937B;
+}
+#tf-home a.my-btn2 {
+  background: rgba(47, 147, 123, 0);
+  border-color: #FFFFFF;
+  border-radius: 0px;
+  border-width: 2px;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: #FFFFFF;
+  transition: color 500ms, background 500ms, border-color 500ms;
+  -moz-transition: color 500ms, background 500ms, border-color 500ms;
+  -webkit-transition: color 500ms, background 500ms, border-color 500ms;
+  -o-transition: color 500ms, background 500ms, border-color 500ms;
+}
+#tf-home a.my-btn2:hover {
+  background: #2F937B;
+  color: #ffffff;
+  border-color: transparent;
+}
+@media all and (max-width: 699px) {
+  #tf-home {
+    padding: 16% 0 13% 0!important;
+  }
+}
+#tf-service {
+  width: 100%;
+  background: #FFFFFF;
+  padding: 7% 0;
+}
+#tf-service .container > div {
+  font-family: 'Raleway', sans-serif;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+#tf-service .container > div .media div .fa {
+  padding: 20px 30px 20px 0;
+  font-size: 30px;
+  color: #2f937b;
+}
+#tf-service .container > div .media div .media-heading {
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #2f937b;
+}
+#tf-service .container > div .media div p {
+  margin: 0 0 10px;
+}
+#tf-portfolio {
+  background: #f1f1f1;
+  padding: 5% 0 8% 0;
+  text-align: center;
+}
+#tf-portfolio .col-md-4 {
+  padding-top: 30px;
+}
+#tf-portfolio .container hr {
+  border-color: #2f937b;
+  width: 60px;
+}
+@media (max-width: 768px) {
+  #tf-about .container {
+    width: 100%!important;
+  }
+}
+#tf-about {
+  background: url(07.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  color: #222222;
+}
+#tf-about .container {
+  padding: 10% 15px;
+}
+#tf-about .container p {
+  font-size: 13px;
+  color: #222222;
+  font-family: 'Raleway', sans-serif;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  text-indent: 2em;
+}
+#tf-about .container a.my-btn {
+  background: #2F937B;
+  border-color: transparent;
+  border-radius: 0px;
+  border-width: 2px;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  margin: 15px 5px;
+  transition: all 0.5s;
+}
+#tf-about .container a.my-btn:hover {
+  background: #222222;
+}
+#tf-why-me {
+  background: url(10.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  color: #222222;
+}
+#tf-why-me .overlay {
+  height: auto;
+  background-attachment: fixed;
+  padding: 5% 0;
+}
+#tf-why-me .overlay li h4 {
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #2f937b;
+}
+#tf-why-me .overlay li p {
+  font-size: 13px;
+  color: #222222;
+  font-family: 'Raleway', sans-serif;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+#tf-why-me .overlay .col-md-6 .my-btn {
+  background: #2F937B;
+  border-color: transparent;
+  border-radius: 0px;
+  border-width: 2px;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  margin: 15px 5px;
+  transition: all 0.5s;
+}
+#tf-why-me .overlay .col-md-6 .my-btn:hover {
+  background: #222222;
+  color: #ffffff;
+  border-color: transparent;
+}
+#tf-contact {
+  background: url(08.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  padding: 5% 0;
+  text-align: center;
+}
+#tf-contact .container .section-title p {
+  font-size: 13px;
+  font-family: 'Raleway', sans-serif;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+#tf-contact .container .section-title hr {
+  border-color: #2f937b;
+  width: 60px;
+}
+#tf-contact .container .space {
+  padding: 20px;
+}
+#tf-contact .container .col-md-3 {
+  box-sizing: border-box;
+  padding-top: 10px;
+}
+#tf-contact .container .col-md-3 .md-box {
+  border: 1px solid #D8D8D8;
+  background: #fff;
+  border-radius: 5px;
+  padding: 40px 0;
+  text-align: center;
+  transition: all 1s;
+  color: #2b3242;
+}
+#tf-contact .container .col-md-3 .md-box h3 {
+  margin: 20px 0 10px 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+#tf-contact .container .col-md-3 .md-box:hover {
+  border: 1px solid #0d121b;
+  background: #1a1f2a;
+  color: #fff;
+}
+#tf-footer {
+  background: #222222;
+  padding: 3% 0 2% 0;
+  color: #f1f1f1;
+  text-align: center;
+}
